@@ -232,8 +232,7 @@ layout = dbc.Container([
                 dbc.Col([
                     dbc.Card([
                         dbc.CardBody([
-                            dcc.Loading(children=[dcc.Graph(figure={},id='map_1',style={'height':350},
-                                                            selectedData={'points': [{'hovertext':'Polk'}]})],
+                            dcc.Loading(children=[dcc.Graph(figure={},id='map_1',style={'height':350})],
                                         color='rgba(50, 171, 96, 0.6)',type='dot')
                         ])
                     ])
